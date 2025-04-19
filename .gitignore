@@ -1,0 +1,41 @@
+# Global (root level)
+/.env
+.env.local
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node.js project (node-product-service/)
+node-product-service/node_modules/
+node-product-service/dist/
+node-product-service/build/
+node-product-service/coverage/
+node-product-service/*.log
+node-product-service/*.tsbuildinfo
+node-product-service/.env
+node-product-service/.env.local
+
+# PHP project (php-order-service/)
+php-order-service/vendor/
+php-order-service/.env
+php-order-service/.env.local
+php-order-service/.phpunit.result.cache
+php-order-service/coverage/
+php-order-service/test-results/
+php-order-service/reports/
+
+# Test artifacts
+**/test-results/
+**/coverage/
+**/reports/
+**/.phpunit.result.cache
+
+# OS + Editor
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.pid
+*.seed
