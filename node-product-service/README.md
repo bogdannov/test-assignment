@@ -30,12 +30,6 @@ npm install
 cp .env.example .env
 ```
 
-3. Configure environment variables in `.env` if needed:
-```
-PORT=3000
-API_KEY=your-secret-api-key
-```
-
 ## Development
 
 For development with hot-reload:
@@ -92,7 +86,7 @@ Returns a single product by ID.
 Request:
 ```bash
 curl http://localhost:3000/v1/products/550e8400-e29b-41d4-a716-446655440000 \
--H "x-api-key: your-secret-api-key"
+-H "x-api-key: my-secret-key"
 ```
 
 ### GET /v1/orders
